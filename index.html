@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiệm bánh Bôn Bôn</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/logo.jpg" href="image/logo.jpg">
+    <script
+      src="https://kit.fontawesome.com/8f27d68390.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <!--Lo go của Thủy -->
+    <header class="header">
+      
+      <!-- <input type="checkbox" name="" id="toggler">
+      <label for="toggler" class="fas fa-bars"></label> -->
+
+
+      <a href="" class="logo">
+        <img src="./image/logo.jpg" width="100" height="100"/>
+      </a>
+
+      <nav class="navbar">
+        <a href="#home" style="font-family:'Agbalumo', system-ui">
+          Trang chủ</a>
+        <div href="#service" class="navbar__item">
+          <a class="menucuatui" href="" style="font-family:'Agbalumo', system-ui">
+            Menu</a>
+          <ul class="navbar__list">
+            <li>
+              <a class="navbar__list__item" href="#new-cakes" style="font-family:'Agbalumo', system-ui">
+                Bánh mới nhất</a>
+            </li>
+            <div class="nav__divided"></div>
+            <li>
+              <a class="navbar__list__item" href="#anniversary-cakes" style="font-family:'Agbalumo', system-ui"
+                >Bánh kỉ niệm</a
+              >
+            </li>
+            <div class="nav__divided"></div>
+            <li>
+              <a class="navbar__list__item" href="#best_seller" style="font-family:'Agbalumo', system-ui"
+                >Bánh bán chạy</a
+              >
+            </li>
+            <div class="nav__divided"></div>
+            <li>
+              <a class="navbar__list__item" href="#sale-cake" style="font-family:'Agbalumo', system-ui">B
+                ánh giảm giá</a>
+            </li>
+            <div class="nav__divided"></div>
+            <li>
+              <a class="navbar__list__item" href="#fruit-cakes" style="font-family:'Agbalumo', system-ui">
+                Bánh hoa quả</a>
+            </li>
+            <div class="nav__divided"></div>
+          </ul>
+        </div>
+        <a href="#about" style="font-family:'Agbalumo', system-ui">Giới thiệu</a>
+        <a href="#review"style="font-family:'Agbalumo', system-ui">Đánh giá</a>
+        <a href="#contact"style="font-family:'Agbalumo', system-ui">Liên hệ</a>
+      </nav>
+      <!-- Phần icon Tìm kiếm và giỏ hàng-->
+      <div class="icons">
+        <div class="search-icon"><i class="fas fa-search"></i></div>
+        <div class="cart-icon"><i class="fas fa-cart-plus"></i></div>
+        <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+      </div>
+      <!--Tìm kiếm-->
+      <div class="search-form">
+        <input
+          type="search"
+          name="search"
+          id="search-box"
+          placeholder="Search here..."
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+      <!--Giỏ hàng Thảo -->
+      <section class="cart">
+        <div class="cart-shopping">
+          <p><i class="fa-solid fa-x"></i></p>
+          <form action="">
+            <table>
+              <thead>
+                <tr>
+                  <th>Sản phẩm</th>
+                  <th>Giá</th>
+                  <th>Số lượng</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                
+              </tbody>
+            </table>
+            <div style="text-align: right" class="price-total">
+              <p style="font-weight: bold">
+                Tổng tiền:<span>0</span><sup>đ</sup>
+              </p>
+            </div>
+          </form>
+          <button>mua ngay</button>
+        </div>
+      </section>
+    </header>
+    <!--Trang Chủ Quỳnh-->
+    <section class="home swiper" id="home">
+      <div class="swiper-wrapper">
+        <!--Slide 1-->
+        <div class="swiper-slide">
+          <div class="home-text">
+            <h1 style="font-family:'Agbalumo', system-ui">Tiệm bánh Bôn Bôn</h1>
+            <a href="#new-cakes" class="btn" style="border: 1px solid white" >Mua ngay</a>
+          </div>
+        </div>
+        <!--Slide 2-->
+        <div class="swiper-slide">
+          <div class="home-text">
+            <h1 style="font-family:'Agbalumo', system-ui">Giảm 20% <br />trong lần đặt<br />đầu tiên</h1>
+            <a href="#new-cakes" class="btn" style="border: 2px solid white" >Mua ngay</a>
+          </div>
+        </div>
+        <!--Slide 3-->
+        <div class="swiper-slide">
+          <div class="home-text">
+            <br /><br /><br /><br /><br /><br /><br />
+            <h1 style="font-family:'Agbalumo', system-ui">
+              <br /><br /><br />
+              Dừng chân tại đây thưởng thức vị ngọt
+            </h1>
+            <a href="#new-cakes" class="btn" style="border: 2px solid white" >Mua ngay</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <br />
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </section>
+
+    <!--Menu bánh Thảo-->
+
+    <!-- Bánh mới nhất -->
+    <section class="new-cakes" id="new-cakes">
+      <h1 class="title">Bánh <span>mới nhất</span></h1>
+      <div class="wrapper">
+        <!-- 1 -->
+        <div class="new-card">
+          <div class="icons">
+            <button class="fas fa-shopping-cart"></button>
+            <button class="fas fa-heart"></button>
+            <button class="fas fa-eye"></button>
+          </div>
+          <div class="img">
+            <img src="./image/maumoi1.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Bánh dâu tây nến</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <span>250.000đ</span>
+            <div class="price">199.000đ</div>
+          </div>
+        </div>
+        <!--  2 -->
+        <div class="new-card">
+          <div class="icons">
+            <button class="fas fa-shopping-cart"></button>
+            <button class="fas fa-heart"></button>
+            <button class="fas fa-eye"></button>
+          </div>
+          <div class="img">
+            <img src="./image/maumoi2.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Bánh dâu tây trắng</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <span>400.000đ</span>
+            <div class="price">210.000đ</div>
+          </div>
+        </div>
+        <!--  3 -->
+        <div class="new-card">
+          <div class="icons">
+            <button class="fas fa-shopping-cart"></button>
+            <button class="fas fa-heart"></button>
+            <button class="fas fa-eye"></button>
+          </div>
+          <div class="img">
+            <img src="./image/maumoi3.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Bánh trái tim xinh</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <span>299.000đ</span>
+            <div class="price">199.000đ</div>
+          </div>
+        </div>
+        <!-- 4 -->
+
+        <div class="new-card">
+          <div class="icons">
+            <button class="fas fa-shopping-cart"></button>
+            <button class="fas fa-heart"></button>
+            <button class="fas fa-eye"></button>
+          </div>
+          <div class="img">
+            <img src="./image/maumoi4.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Bánh nơ công chúa</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <span>299.000đ</span>
+            <div class="price">200.000đ</div>
+          </div>
+        </div>
+        <!-- 5 -->
+        <div class="new-card">
+          <div class="icons">
+            <button class="fas fa-shopping-cart"></button>
+            <button class="fas fa-heart"></button>
+            <button class="fas fa-eye"></button>
+          </div>
+          <div class="img">
+            <img src="./image/maumoi5.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Bánh basic Hàn Quốc</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <span>250.000đ</span>
+            <div class="price">215.000đ</div>
+          </div>
+        </div>
+        <!-- 6 -->
+        <div class="new-card">
+          <div class="icons">
+            <button class="fas fa-shopping-cart"></button>
+            <button class="fas fa-heart"></button>
+            <button class="fas fa-eye"></button>
+          </div>
+          <div class="img">
+            <img src="./image/maumoi6.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Bánh Cherry</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <span>250.000đ</span>
+            <div class="price">189.000đ</div>
+          </div>
+        </div>
+        <!-- 7 -->
+        <div class="new-card">
+          <div class="icons">
+            <button class="fas fa-shopping-cart"></button>
+            <button class="fas fa-heart"></button>
+            <button class="fas fa-eye"></button>
+          </div>
+          <div class="img">
+            <img src="./image/maumoi7.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Bánh ô tô cute</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <span>250.000đ</span>
+            <div class="price">199.000đ</div>
+          </div>
+        </div>
+        <!-- 8 -->
+        <div class="new-card">
+          <div class="icons">
+            <button class="fas fa-shopping-cart"></button>
+            <button class="fas fa-heart"></button>
+            <button class="fas fa-eye"></button>
+          </div>
+          <div class="img">
+            <img src="./image/maumoi8.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Bánh lan hồ điệp</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <span>399.000đ</span>
+            <div class="price">259.000đ</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Bánh kỉ niệm-->
+    <section class="anniversary-cakes" id="anniversary-cakes">
+      <h1 class="title">Bánh <span> Kỉ Niệm</span></h1>
+      <div class="wrapper">
+        <!-- item 1 -->
+        <div class="cake-card">
+          <div class="slide-show">
+            <div class="list-images">
+              <img class="img" src="./image/kiniem1.png" alt="" />
+              <img class="img" src="./image/kiniem1.1.png" alt="" />
+              <img class="img" src="./image/kiniem1.png" alt="" />
+            </div>
+            <div class="btns">
+              <div class="btnn btn-left">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="btnn btn-right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+          <h3>Bánh kèm hoa tone hồng</h3>
+          <p>450.000<sup>đ</sup></p>
+          <div class="price"><span>299.000</span><sup>đ</sup></div>
+          <button><a href="" class="btn">Thêm vào giỏ hàng</a></button>
+        </div>
+
+        <!-- Bánh 2 -->
+        <div class="cake-card">
+          <div class="slide-show">
+            <div class="list-images">
+              <img class="img" src="./image/kiniem2.1.png" alt="" />
+              <img class="img" src="./image/kiniem2.png" alt="" />
+              <img class="img" src="./image/kiniem2.1.png" alt="" />
+            </div>
+            <div class="btns">
+              <div class="btnn btn-left">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="btnn btn-right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+          <h3>Bánh trái cây kèm hoa hồng</h3>
+          <p>499.000<sup>đ</sup></p>
+          <div class="price"><span>350.000</span><sup>đ</sup></div>
+          <button><a href="" class="btn">Thêm vào giỏ hàng</a></button>
+        </div>
+        <!-- item 3 -->
+        <div class="cake-card">
+          <div class="slide-show">
+            <div class="list-images">
+              <img class="img" src="./image/kiniem3.png" alt="" />
+              <img class="img" src="./image/kiniem3.1.png" alt="" />
+              <img class="img" src="./image/kiniem3.2.png" alt="" />
+            </div>
+            <div class="btns">
+              <div class="btnn btn-left">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="btnn btn-right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <h3>Bánh kèm hoa hồng sắc màu</h3>
+          <p>450.000<sup>đ</sup></p>
+          <div class="price"><span>299.000</span><sup>đ</sup></div>
+          <button><a href="" class="btn">Thêm vào giỏ hàng</a></button>
+        </div>
+        <!-- item 4 -->
+        <div class="cake-card">
+          <div class="slide-show">
+            <div class="list-images">
+              <img class="img" src="./image/kiniem4.png" alt="" />
+              <img class="img" src="./image/kiniem4.png" alt="" />
+              <img class="img" src="./image/kiniem4.png" alt="" />
+            </div>
+            <div class="btns">
+              <div class="btnn btn-left">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="btnn btn-right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+          <h3>Bánh trắng kèm hoa hồng đỏ</h3>
+          <p>500.000<sup>đ</sup></p>
+          <div class="price"><span>350.000</span><sup>đ</sup></div>
+          <button><a href="" class="btn">Thêm vào giỏ hàng</a></button>
+        </div>
+        <!-- item 5 -->
+        <div class="cake-card">
+          <div class="slide-show">
+            <div class="list-images">
+              <img class="img" src="./image/kiniem5.png" alt="" />
+              <img class="img" src="./image/kiniem5.1.png" alt="" />
+              <img class="img" src="./image/kiniem5.png" alt="" />
+              <img class="img" src="./image/kiniem5.1.png" alt="" />
+            </div>
+            <div class="btns">
+              <div class="btnn btn-left">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="btnn btn-right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+          <h3>Bánh hoa hồng đỏ basic</h3>
+          <p>380.000<sup>đ</sup></p>
+          <div class="price"><span>299.000</span><sup>đ</sup></div>
+          <button><a href="" class="btn">Thêm vào giỏ hàng</a></button>
+        </div>
+        <!-- item 6 -->
+        <div class="cake-card">
+          <div class="slide-show">
+            <div class="list-images">
+              <img class="img" src="./image/kiniem10.png" alt="" />
+              <img class="img" src="./image/kiniem10.1.png" alt="" />
+              <img class="img" src="./image/kiniem10.2.png" alt="" />
+            </div>
+            <div class="btns">
+              <div class="btnn btn-left">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="btnn btn-right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+          <h3>Bánh trái cây thắt nơ kèm hoa</h3>
+          <p>520.000<sup>đ</sup></p>
+          <div class="price"><span>330.000</span><sup>đ</sup></div>
+          <button><a href="" class="btn">Thêm vào giỏ hàng</a></button>
+        </div>
+        <!-- 7 -->
+
+        <div class="cake-card">
+          <div class="slide-show">
+            <div class="list-images">
+              <img class="img" src="./image/kiniem7.png" alt="" />
+              <img class="img" src="./image/kiniem7.1.png" alt="" />
+              <img class="img" src="./image/kiniem7.png" alt="" />
+            </div>
+            <div class="btns">
+              <div class="btnn btn-left">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="btnn btn-right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+          <h3>Bánh hoa quả nơ kèm hoa hồng phấn</h3>
+          <p>600.000<sup>đ</sup></p>
+          <div class="price"><span>330.000</span><sup>đ</sup></div>
+          <button><a href="" class="btn">Thêm vào giỏ hàng</a></button>
+        </div>
+        <!-- 8 -->
+        <div class="cake-card">
+          <div class="slide-show">
+            <div class="list-images">
+              <img class="img" src="./image/kiniem8.png" alt="" />
+              <img class="img" src="./image/kiniem8.1.png" alt="" />
+              <img class="img" src="./image/kiniem8.png" alt="" />
+            </div>
+            <div class="btns">
+              <div class="btnn btn-left">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="btnn btn-right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+          <h3>Bánh trái tim nơ kèm hoa xanh</h3>
+          <p>380.000<sup>đ</sup></p>
+          <div class="price"><span>299.000</span><sup>đ</sup></div>
+          <button><a href="" class="btn">Thêm vào giỏ hàng</a></button>
+        </div>
+      </div>
+    </section>
+    <!-----------------------Bán chạy-------------------->
+    <section class="best_seller" id="best_seller">
+      <h1 class="title">Bánh <span>bán chạy</span></h1>
+      <div class="cake-best_seller">
+        <div class="inner-cake-row">
+          <!-- 1 -->
+          <div class="inner-cake-col">
+            <img src="./image/banchay1.png" />
+            <div class="cake-price">
+              <p>199.000đ</p>
+            </div>
+            <div class="cake-star">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3>Bánh mix ngũ quả</h3>
+            <h4>Ít ngọt - Ít đường</h4>
+            <p>Sự sáng tạo đến từ những hương vị tự nhiên</p>
+            <button><a href="#contact">Mua ngay</a></button>
+          </div>
+          <!-- 2 -->
+          <div class="inner-cake-col">
+            <img src="./image/banchay2.png" alt="" />
+            <div class="cake-price">
+              <p>199.000đ</p>
+            </div>
+            <div class="cake-star">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3>Bánh phô mai độc lạ</h3>
+            <h4>Đơn giản – Dễ thương</h4>
+            <p>Lựa chọn lý tưởng cho sự đáng yêu</p>
+            <button><a href="#contact">Mua ngay</a></button>
+          </div>
+          <!-- 3 -->
+          <div class="inner-cake-col">
+            <img src="./image/banchay3.png" alt="" />
+            <div class="cake-price">
+              <p>225.000đ</p>
+            </div>
+            <div class="cake-star">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3>Bánh hoa hồng nến</h3>
+            <h4>Vị ngọt đặc biệt</h4>
+            <p>Cảm thấy một trải nghiệm ngọt ngào từ bánh</p>
+            <button><a href="#contact">Mua ngay</a></button>
+          </div>
+          <!-- 4 -->
+          <div class="inner-cake-col">
+            <img src="./image/banchay4.png" alt="" />
+            <div class="cake-price">
+              <p>235.000đ</p>
+            </div>
+            <div class="cake-star">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3>Ngập tràn dâu tây</h3>
+            <h4>Ít ngọt – Không béo</h4>
+            <p>Nuông chiều bản thân với những chiếc bánh ngọt.</p>
+            <button><a href="#contact">Mua ngay</a></button>
+          </div>
+          <div class="inner-cake-col">
+            <img src="./image/banchay5.png" alt="" />
+            <div class="cake-price">
+              <p>211.000đ</p>
+            </div>
+            <div class="cake-star">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3>Nến xanh xa lánh</h3>
+            <h4>Đơn giản – Sang trọng</h4>
+            <p>Không chỉ là bánh ngọt, đây là sự yêu thương.</p>
+            <button><a href="#contact">Mua ngay</a></button>
+          </div>
+          <!-- 6 -->
+          <div class="inner-cake-col">
+            <img src="./image/banchay6.png" alt="" />
+            <div class="cake-price">
+              <p>189.000đ</p>
+            </div>
+            <div class="cake-star">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3>Bánh chery ngọt ngào</h3>
+            <h4>Kỉ niệm – Sinh nhật</h4>
+            <p>Bánh ngọt - lựa chọn của tâm hồn lãng mạn</p>
+            <button><a href="#contact">Mua ngay</a></button>
+          </div>
+          <!-- 7 -->
+          <div class="inner-cake-col">
+            <img src="./image/banchay7.png" alt="" />
+            <div class="cake-price">
+              <p>222.000đ</p>
+            </div>
+            <div class="cake-star">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3>Bánh gia đình gấu</h3>
+            <h4>Dễ thương – Ấm áp</h4>
+            <p>Gọi em là bánh kem, vì em rất ngọt ngào.</p>
+            <button><a href="#contact">Mua ngay</a></button>
+          </div>
+          <!-- 8 -->
+          <div class="inner-cake-col">
+            <img src="./image/banchay8.png" alt="" />
+            <div class="cake-price">
+              <p>233.000đ</p>
+            </div>
+            <div class="cake-star">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3>Bánh trái tim nơ</h3>
+            <h4>Nhẹ nhàng – Ngọt ngào</h4>
+            <p>Bánh ngọt khiến giấc mơ ngọt ngào trở thành sự thật</p>
+            <button><a href="#contact">Mua ngay</a></button>
+          </div>
+          <!-- 9 -->
+          <div class="inner-cake-col">
+            <img src="./image/banchay9.png" alt="" />
+            <div class="cake-price">
+              <p>250.000đ</p>
+            </div>
+            <div class="cake-star">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <h3>Bánh hoa Tulip</h3>
+            <h4>Kỉ niệm – Ngọt ngào</h4>
+            <p>Không chỉ là chiếc bánh, mà là một món quà</p>
+            <button><a href="#contact">Mua ngay</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fruit cakes section-->
+    <section class="fruit-cakes" id="fruit-cakes">
+      <h1 class="title">Bánh <span> Hoa Quả</span></h1>
+      <div class="wrapper">
+        <!-- 1 -->
+        <div class="card">
+          <div class="img">
+            <img src="image/fruitcake1.png" />
+          </div>
+          <div class="content">
+            <a>Bánh mousse mix 4 vị</a>
+            <p>Matcha, Việt Quất, Xoài, Đào, Dâu Tây, Kem Tươi</p>
+            <a class="btn">Khám phá </a>
+          </div>
+        </div>
+        <!--2 -->
+        <div class="card">
+          <div class="img">
+            <img src="image/fruitcake2.png" />
+          </div>
+          <div class="content">
+            <a>Bánh mouse chanh dây</a>
+            <p>Chanh dây, dâu tây, Việt quất, Cam sành, Kem Tươi</p>
+            <a class="btn">Khám phá </a>
+          </div>
+        </div>
+        <!--  3 -->
+        <div class="card">
+          <div class="img">
+            <img src="image/fruitcake3.png" />
+          </div>
+          <div class="content">
+            <a>Bánh tiramisu chocolate</a>
+            <p>Chocolate,Nho xanh, Dâu tây, kem tươi</p>
+            <a class="btn">Khám phá </a>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="card">
+          <div class="img">
+            <img src="image/fruitcake4.png" />
+          </div>
+          <div class="content">
+            <a>Bánh nho xanh mix xoài</a>
+            <p>Trà xanh, Nho xanh, Xoài, Kem Tươi</p>
+            <a class="btn">Khám phá </a>
+          </div>
+        </div>
+        <!-- 5 -->
+        <div class="card">
+          <div class="img">
+            <img src="image/fruitcake5.png" />
+          </div>
+          <div class="content">
+            <a>Bánh mix nhiều lớp</a>
+            <p>Việt quất, Dâu Tây, Xoài, Kem Cheese</p>
+            <a class="btn">Khám phá </a>
+          </div>
+        </div>
+        <!-- 6 -->
+        <div class="card">
+          <div class="img">
+            <img src="image/fruitcake6.png" />
+          </div>
+          <div class="content">
+            <a>Bánh mousse hoa quả</a>
+            <p>Dâu tây, Nho, Ngô, Kem Cheese</p>
+            <a class="btn">Khám phá </a>
+          </div>
+        </div>
+        <!-- 7 -->
+        <div class="card">
+          <div class="img">
+            <img src="image/fruitcake7.png" />
+          </div>
+          <div class="content">
+            <a>Bánh mouse mix 9 vị đặc biệt</a>
+            <p>
+              Hạt điều, Dâu tây, Việt quất, cam sành, Oreon,Xoài, kem tươi, kem
+              cheese, kem dâu
+            </p>
+            <a class="btn">Khám phá </a>
+          </div>
+        </div>
+        <!-- 8 -->
+        <div class="card">
+          <div class="img">
+            <img src="image/fruitcake8.png" />
+          </div>
+          <div class="content">
+            <a>Bánh tiramisu 4 vị tươi mát</a>
+            <p>Nho xanh, Chocolate, Mứt dâu, Xoài, Chanh dây, Kem Cheese</p>
+            <a class="btn">Khám phá </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sale-cake section -->
+    <section class="sale-cake" id="sale-cake">
+      <h3 class="title">Bánh<span> giảm giá</span></h3>
+
+      <div class="sale-cake_image_box">
+        <div class="sale-cake_image">
+          <img src="image/giamgia1.png" />
+
+          <h3>Bánh dâu tây việt quất</h3>
+          <p>
+            Tìm thấy niềm vui trong từng viên bánh ngọt!<br /><br />
+            <span>299.000đ</span><br /><br />
+            <b>199.000đ</b>
+          </p>
+
+          <a href="#contact" class="sale-cake_btn">Mua ngay</a>
+        </div>
+
+        <div class="sale-cake_image">
+          <img src="image/giamgia2.png" />
+
+          <h3>Bánh nơ siêu dễ thương</h3>
+          <p>
+            Gọi em là bánh kem, vì em rất ngọt ngào<br /><br /><span
+              >399.000đ</span
+            ><br /><br />
+            <b>250.000đ</b>
+          </p>
+          <a href="#contact" class="sale-cake_btn">Mua ngay</a>
+        </div>
+
+        <div class="sale-cake_image">
+          <img src="image/giamgia3.png" />
+
+          <h3>Bánh gấu vàng cookie</h3>
+          <p>
+            Ngọt ngào, gắn kết trái tim!<br /><br /><span
+              >299.000đ<br /><br /></span
+            ><br /><br />
+            <b>220.000đ</b>
+          </p>
+          <a href="#contact" class="sale-cake_btn">Mua ngay</a>
+        </div>
+
+        <div class="sale-cake_image">
+          <img src="image/giamgia4.png" />
+
+          <h3>Bánh oreon pink</h3>
+          <p>
+            Vị ngọt, niềm vui trong từng miếng bánh.<br /><br /><span
+              >299.000đ</span
+            ><br /><br />
+            <b>199.000đ</b>
+          </p>
+          <a href="#contact" class="sale-cake_btn">Mua ngay</a>
+        </div>
+
+        <div class="sale-cake_image">
+          <img src="image/giamgia5.png" />
+
+          <h3>Bánh dâu mini</h3>
+          <p>
+            Bánh ngọt - Đắm chìm trong hương vị ngọt ngào.<br /><br /><span
+              >199.000đ</span
+            ><br /><br />
+            <b>150.000đ</b>
+          </p>
+          <a href="#contact" class="sale-cake_btn">Mua ngay</a>
+        </div>
+
+        <div class="sale-cake_image">
+          <img src="image/giamgia6.png" />
+
+          <h3>Bánh nến vàng mini</h3>
+          <p>
+            Hạnh phúc nhỏ bé là khi được thưởng thức bánh ngọt.<br /><br /><span
+              >199.000đ</span
+            ><br /><br />
+            <b>160.000đ</b>
+          </p>
+          <a href="#contact" class="sale-cake_btn">Mua ngay</a>
+        </div>
+      </div>
+    </section>
+
+    <!--Giới thiệu Thủy-->
+    <section class="about" id="about">
+      <h1 class="heading">GIỚI THIỆU <span>CỬA HÀNG</span></h1>
+      <div class="row">
+        <div class="video-container">
+          <video src="image/VIDEOABOUT.mp4" loop autoplay muted></video>
+      
+        </div>
+        <div class="content">
+          <h3>VÌ SAO BÔN BÔN CAKE LÀ LỰA CHỌN LÝ TƯỞNG?</h3>
+          <p>Được thành lập vào năm 2020 tại Hà Nội, Bôn Bôn là cửa hàng bán bánh truyền thống của Pháp,
+            chuyên cung cấp các loại bánh ngọt: macaron, bánh su kem, bánh bông lan và nhiều món bánh khác. 
+            Chúng đều được làm từ những nguyên liệu nhập khẩu tươi ngon và chất lượng cao.
+          </p>
+          <p>Đặc trưng của Bôn Bôn là tập trung vào sự sang trọng, tinh tế và sáng tạo trong từng sản phẩm bánh.
+            Các loại bánh đều được chế biến bởi đội đội ngũ các đầu bếp tài năng, sử dụng công thức, kỹ thuật
+            làm bánh truyền thống của Pháp. Chúng tôi luôn có những đầu bếp được đào tạo cẩn thận và chuyên nghiệp.
+          </p>
+          <a href="#professional" class="btn">Xem thêm</a>
+      </div>
+    </section>
+    <!--Giới thiệu đầu bếp-->
+    <section id="professional" class="professional">
+      <h1 class="heading">CÁC<span> ĐẦU BẾP CHÍNH</span></h1>
+      <div class="box-container mx-auto">
+        <div class="box">
+        <img src="image/anhquynh.jpg" alt="ng1">
+        <h2>Lê Quỳnh <a href="https://www.facebook.com/profile.php?id=100011376062408" target="_blank" class="facebook-icon">
+          <i class="fab fa-facebook-f"></i>  
+        </a></h2>
+        <p>Làm bánh là một nghệ thuật, đòi hỏi sự cân bằng giữa kĩ thuật và cảm xúc.
+           Mình tin rằng mỗi chiếc bánh phải mang đến sự thoải mái,phấn khích cho người
+          thưởng thức, và coi đây là cách thể hiện bản thân cũng nhưu truyền tải câu chuyện của riêng mình. </p>
+      </div>
+
+      <div class="box">
+        <img src="image/anhthao.jpg" alt="ng2">
+        <h2>HT Thảo <a href="https://www.facebook.com/profile.php?id=100023854860197" target="_blank" class="facebook-icon">
+          <i class="fab fa-facebook-f"></i>
+        </a></h2>
+        <p>Mình tin rằng việc làm bánh không chỉ là kỹ năng, mà còn là cách thể hiện tình yêu, sự sáng tạo và sự chăm chút. Mình luôn cố gắng tạo ra những chiếc bánh không chỉ ngon mà còn mang lại cảm xúc và kết nối mọi người.</p>
+      </div>
+
+      <div class="box">
+        <img src="image/anhly.jpg" alt="ng3">
+        <h2>Nguyễn Lý <a href="https://www.facebook.com/nguyenly0204" target="_blank" class="facebook-icon">
+          <i class="fab fa-facebook-f"></i></h2></a>
+        <p>Làm bánh là một cuộc thi về sự hoàn hảo, đòi hỏi sự kiểm soát
+          tuyệt đối về kỹ thuật. Mình tin rằng việc làm bánh phải thể hiện
+          được sự sáng tạo, đổi mới và tinh tế, coi đây là cách thể hiện tố chất
+          của đầu bếp chuyên nghiệp.
+        </p>
+    </div>
+
+      <div class="box">
+        <img src="image/anhthuy.jpg" alt="ng4">
+        <h2>Nguyễn Thủy <a href="https://www.facebook.com/profile.php?id=100012038581626" target="_blank" class="facebook-icon">
+          <i class="fab fa-facebook-f"></i></h2></a>
+        <p>Mình nghĩ làm bánh phải thể hiện được sự tôn trọng truyền thống và 
+        phát huy các giá trị ẩm thực địa phương. Việc làm bánh là cách để bảo tồn
+        và phát triển nền ẩm thực của một quốc gia, đồng thời là một nghệ thuật
+        tinh tế, đòi hỏi sự kỹ lưỡng và chăm chút từng chi tiết.
+        </p>
+    </div>
+      </div>
+    </section>
+  
+    <!--Đánh giá Quỳnh-->
+    <section class="review" id="review">
+      <h1 class="title">ĐÁNH GIÁ <span>của khách hàng</span></h1>
+      <div class="wrapper">
+        <!--review 1-->
+        <div class="review-card">
+          <img src="./image/kepp.png" />
+          <p>
+            Tôi rất hài lòng với việc tìm thấy một loạt các loại bánh tại tiệm
+            này. Mỗi lần ghé qua, tôi luôn phát hiện ra những loại bánh mới và
+            thú vị để thử.
+          </p>
+          <img class="customer" src="./image/trang.jpg" />
+          <h3>Lê Thị Trang</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <!--review 2-->
+        <div class="review-card">
+          <img src="./image/kepp.png" />
+          <p>
+            Nhân viên luôn niềm nở và chu đáo. Họ không chỉ giúp đỡ tôi trong
+            việc chọn bánh mà còn tận tình và nhiệt tình trong việc giải đáp mọi
+            thắc mắc của tôi.
+          </p>
+          <img class="customer" src="./image/oanh.jpg" />
+          <h3>Hoàng Ngọc Oanh</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+        </div>
+        <!--review 3-->
+        <div class="review-card">
+          <img src="./image/kepp.png" />
+          <p>
+            Bánh ở đây rất ngon. Giá cả rẻ khỏi bàn. Nhân viên tư vấn mua rất
+            nhiệt tình. Tôi đã nhận nhiều ưu đãi hời nữa. Tôi chắc chắn sẽ quay
+            lại lần nữa.
+          </p>
+          <img class="customer" src="./image/thao.jpg" />
+          <h3>Nguyễn Thu Thảo</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+        </div>
+        <!--review 4-->
+        <div class="review-card">
+          <img src="./image/kepp.png" />
+          <p>
+            Tôi luôn có trải nghiệm tuyệt vời mỗi khi ghé qua tiệm bánh này. Từ
+            chất lượng bánh đến dịch vụ khách hàng, tất cả đều làm cho tôi muốn
+            quay lại lần nữa và lần nữa.
+          </p>
+          <img class="customer" src="./image/vit.jpg" />
+          <h3>Nguyễn Quốc Việt</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Liên hệ Quỳnh-->
+    <section class="contact" id="contact">
+      <h1 class="title">LIÊN HỆ <span>Bôn Bôn</span></h1>
+      <div class="contents">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.33821421311!2d105.784498!3d21.0591498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab2a8e254575%3A0xd1c924b3494a156c!2zNzYgTmfDtSA1NjIgVHLhuqduIEN1bmcsIEPhu5UgTmh14bq_LCBU4burIExpw6ptLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1714280413583!5m2!1svi!2s"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form id="cakeForm" action="">
+          <h3>Liên hệ đặt bánh</h3>
+
+          <div class="input-box">
+            <span class="fas fa-user"></span>
+            <input type="text" id="name" name="name" placeholder="Họ và tên" />
+            <span id="nameError" class="error"></span>
+          </div>
+
+          <div class="input-box">
+            <span class="fas fa-phone"></span>
+            <input
+              type="text"
+              id="phone"
+              name="phone"
+              placeholder="Số điện thoại"
+            />
+            <span id="phoneError" class="error"></span>
+          </div>
+
+          <div class="input-box">
+            <span class="fas fa-location"></span>
+            <input
+              type="text"
+              id="location"
+              name="location"
+              placeholder="Địa chỉ"
+            />
+            <span id="locationError" class="error"></span>
+          </div>
+
+          <button class="btn" type="button" onclick="validateForm()">
+            Gửi
+          </button>
+        </form>
+
+        <!-- <p id="errorMessage" class="error"></p> -->
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+      <div class="social-media">
+        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+        <a href="https://twitter.com/" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+        <a href="https://www.youtube.com/" class="fab fa-youtube"></a>
+        <a href="https://www.pinterest.com/" class="fab fa-pinterest"></a>
+      </div>
+      <div class="links">
+        <a href="#home">Trang chủ</a>
+        <a href="#cakes">Menu bánh</a>
+        <a href="#about">Giới thiệu</a>
+        <a href="#review">Đánh giá</a>
+        <a href="#contact">Liên hệ</a>
+      </div>
+      <div class="credits">
+        Copyright 2024 <span>Bôn Bôn BAKERY </span>| all rights reserved.
+        Designed by Quynh, Thao, Thuy.
+      </div>
+    </footer>
+    <script language="JavaScript" src="script.js"></script>
+  </body>
+</html>
